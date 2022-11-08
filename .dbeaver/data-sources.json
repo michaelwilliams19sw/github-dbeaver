@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-1845847348a-14e5a4104f6448f0": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "mm16611.sa-east-1.aws.snowflakecomputing.com",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mm16611.sa-east-1.aws.snowflakecomputing.com",
+				"port": "443",
+				"url": "jdbc:snowflake://mm16611.sa-east-1.aws.snowflakecomputing.com:443/?",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "snowflake_snowflake",
+				"auth-properties": {},
+				"handlers": {}
+			},
+			"custom-properties": {
+				"ddString": "false"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
